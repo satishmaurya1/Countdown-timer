@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-size: cover;
+    background-position: center center;
+    
+
+    background: url("./pexels-ashish-sharma-917594.jpg") no-repeat fixed center;
+
+}
+
+h1{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 6rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.c{
+    margin-top: 4rem;
+    margin-left: 2.7rem;
+    font-size: 7rem;
+    
+    color: rgb(250, 8, 8);
+}
+
+.s{
+    color: white;
+    margin-left: 2.7rem;
+
+    font-size: 2rem;
+}
